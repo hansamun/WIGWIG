@@ -21,7 +21,7 @@ const fredoka = Fredoka({
 
 export default function WigOnBasePage() {
   const [copied, setCopied] = useState(false)
-  const contractAddress = "COOMING SOON"
+  const contractAddress = "0x2111bf05a80256a53a46f1ed88d655449a757b43"
 
   // Scroll animations
   const whyWigAnimation = useScrollAnimation(0.2)
