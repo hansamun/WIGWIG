@@ -519,7 +519,7 @@ export default function WigOnBasePage() {
               
               <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-3 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
                 <h3 className="text-xl md:text-2xl mb-2" style={{ fontFamily: 'var(--font-header)' }}>STEP 3</h3>
-                <p className="font-medium text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>COPY THE CA</p>
+                <p className="font-medium text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>COPY THE CA<br />0x2111bf05a80256a53a46f1ed88d655449a757b43</p>
               </div>
               
               <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-4 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
