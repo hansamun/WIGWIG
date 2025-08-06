@@ -60,7 +60,7 @@ export default function WigOnBasePage() {
               <Button className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>
                 X
               </Button>
-              <Button className="bg-blue-500/80 text-white hover:bg-blue-400/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>
+              <Button className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>
                 TG
               </Button>
             </div>
@@ -70,8 +70,8 @@ export default function WigOnBasePage() {
               <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" style={{ fontFamily: 'var(--font-body)' }}>
                 BUY WIG
               </Button>
-              <Button className="bg-black/80 text-white hover:bg-black/90 p-2 font-semibold backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
-                <ExternalLink className="w-4 h-4" />
+              <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" style={{ fontFamily: 'var(--font-body)' }}>
+                DEXSCREEN
               </Button>
             </div>
           </div>
@@ -95,23 +95,43 @@ export default function WigOnBasePage() {
             <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
               BUY WIG
             </Button>
-            <Button className="bg-black/80 text-white hover:bg-black/90 p-3 font-semibold backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
-              <ExternalLink className="w-5 h-5" />
+            <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
+              DEXSCREEN
             </Button>
           </div>
         </div>
       </div>
 
-      {/* Hero Section - Mobile Responsive with Blue Gradient Background */}
-      <div className="relative min-h-screen flex flex-col items-center justify-center pt-32 md:pt-28 pb-32 md:pb-24 px-4 bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600">
+      {/* Hero Section - Mobile Responsive with Blue Sunburst Background */}
+      <div className="relative min-h-screen flex flex-col items-center justify-center pt-32 md:pt-28 pb-32 md:pb-24 px-4" style={{
+        backgroundImage: 'url(/blue-sunburst-header-bg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}>
         
+        {/* $WIG Text at the top */}
+        <div className="relative z-10 text-center mb-8 md:mb-12">
+          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white font-bold drop-shadow-2xl" style={{ fontFamily: 'var(--font-header)' }}>
+            $WIG
+          </h1>
+        </div>
+
         {/* WIG Character Image centered */}
-        <div className="relative z-10 text-center">
+        <div className="relative z-10 text-center mb-8 md:mb-12">
           <img 
             src="/wig-character.png" 
             alt="WIG Character" 
             className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 mx-auto hover:scale-110 transition-transform duration-300 drop-shadow-2xl"
           />
+        </div>
+
+        {/* Tagline Text */}
+        <div className="relative z-10 text-center mb-16 md:mb-20">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-bold drop-shadow-lg" style={{ fontFamily: 'var(--font-header)' }}>
+            BACKED BY 100% PURE BASE<br />
+            WIG ENERGY
+          </h2>
         </div>
 
         {/* Scroll Down Animation */}
