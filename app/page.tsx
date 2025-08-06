@@ -79,11 +79,23 @@ export default function WigOnBasePage() {
             
             {/* Right side - Buy button (visible on mobile) */}
             <div className="flex gap-2 md:hidden">
-              <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" style={{ fontFamily: 'var(--font-body)' }}>
-                BUY WIG
+              <Button 
+                asChild
+                className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://ape.store/base/0x2111bf05a80256a53a46f1ed88d655449a757b43" target="_blank" rel="noopener noreferrer">
+                  BUY WIG
+                </a>
               </Button>
-              <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" style={{ fontFamily: 'var(--font-body)' }}>
-                DEXSCREEN
+              <Button 
+                asChild
+                className="bg-black/80 text-white hover:bg-black/90 font-semibold px-3 py-2 backdrop-blur-sm text-sm" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://dexscreener.com/base/0xFd883d4d74793Febb1278E2fc5709794F2718Eb6" target="_blank" rel="noopener noreferrer">
+                  DEXSCREEN
+                </a>
               </Button>
             </div>
           </div>
@@ -104,11 +116,23 @@ export default function WigOnBasePage() {
           
           {/* Right side - Buy button (hidden on mobile, visible on desktop) */}
           <div className="hidden md:flex gap-4">
-            <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
-              BUY WIG
+            <Button 
+              asChild
+              className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" 
+              style={{ fontFamily: 'var(--font-body)' }}
+            >
+              <a href="https://ape.store/base/0x2111bf05a80256a53a46f1ed88d655449a757b43" target="_blank" rel="noopener noreferrer">
+                BUY WIG
+              </a>
             </Button>
-            <Button className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" style={{ fontFamily: 'var(--font-body)' }}>
-              DEXSCREEN
+            <Button 
+              asChild
+              className="bg-black/80 text-white hover:bg-black/90 font-semibold px-6 py-3 backdrop-blur-sm" 
+              style={{ fontFamily: 'var(--font-body)' }}
+            >
+              <a href="https://dexscreener.com/base/0xFd883d4d74793Febb1278E2fc5709794F2718Eb6" target="_blank" rel="noopener noreferrer">
+                DEXSCREEN
+              </a>
             </Button>
           </div>
         </div>
@@ -494,16 +518,11 @@ export default function WigOnBasePage() {
               </div>
               
               <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-3 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
-                <h3 className="text-xl md:text-2xl mb-2" style={{ fontFamily: 'var(--font-header)' }}>STEP 2</h3>
-                <p className="font-medium text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>LOAD UP ETH FROM AN EXCHANGE</p>
-              </div>
-              
-              <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-4 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
                 <h3 className="text-xl md:text-2xl mb-2" style={{ fontFamily: 'var(--font-header)' }}>STEP 3</h3>
                 <p className="font-medium text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>COPY THE CA</p>
               </div>
               
-              <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-5 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
+              <div className={`bg-white text-blue-600 p-4 md:p-6 rounded-lg border-4 border-blue-500 scale-in stagger-4 ${howToBuyAnimation.isVisible ? 'visible' : ''}`}>
                 <h3 className="text-xl md:text-2xl mb-2" style={{ fontFamily: 'var(--font-header)' }}>STEP 4</h3>
                 <p className="font-medium text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>HEAD OVER TO UNISWAP AND SWAP</p>
               </div>
@@ -553,8 +572,14 @@ export default function WigOnBasePage() {
           </div>
           
           <div className={`fade-in stagger-3 ${ctaAnimation.isVisible ? 'visible' : ''}`}>
-            <Button className="bg-black text-blue-400 hover:bg-gray-800 font-semibold text-lg md:text-2xl px-8 md:px-12 py-4 md:py-6 rounded-lg" style={{ fontFamily: 'var(--font-body)' }}>
-              GO BUY WIG NOW!
+            <Button 
+              asChild
+              className="bg-black text-blue-400 hover:bg-gray-800 font-semibold text-lg md:text-2xl px-8 md:px-12 py-4 md:py-6 rounded-lg" 
+              style={{ fontFamily: 'var(--font-body)' }}
+            >
+              <a href="https://ape.store/base/0x2111bf05a80256a53a46f1ed88d655449a757b43" target="_blank" rel="noopener noreferrer">
+                GO BUY WIG NOW!
+              </a>
             </Button>
           </div>
         </div>
