@@ -436,6 +436,14 @@ export default function WigOnBasePage() {
                 className="w-full h-48 md:h-56 object-cover rounded-lg border-4 border-blue-500 hover:scale-105 transition-transform duration-300"
               />
             </div>
+            {/* Add the new yacht party image */}
+            <div className={`slide-in-up stagger-4 ${storyAnimation.isVisible ? 'visible' : ''}`}>
+              <img 
+                src="/story-20.jpg" 
+                alt="WIG Yacht Party Celebration" 
+                className="w-full h-48 md:h-56 object-cover rounded-lg border-4 border-blue-500 hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
           
           {/* Closing Text */}
