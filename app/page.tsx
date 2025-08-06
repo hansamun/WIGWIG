@@ -117,11 +117,11 @@ export default function WigOnBasePage() {
           </h1>
         </div>
 
-        {/* WIG Character Image centered */}
+        {/* BASE Character Image centered */}
         <div className="relative z-10 text-center mb-8 md:mb-12">
           <img 
-            src="/wig-character.png" 
-            alt="WIG Character" 
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT_Image_Aug_6__2025__07_44_41_PM-removebg-preview-bEKcxkrLCok6bkbxCmerx7Or1ZTmiO.png" 
+            alt="BASE Character" 
             className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 mx-auto hover:scale-110 transition-transform duration-300 drop-shadow-2xl"
           />
         </div>
@@ -236,8 +236,8 @@ export default function WigOnBasePage() {
             {/* BASE Character - Mobile Responsive */}
             <div className={`text-center scale-in stagger-2 ${tokenomicsAnimation.isVisible ? 'visible' : ''} mt-8 lg:mt-0`}>
               <img 
-                src="/base-character.png" 
-                alt="BASE Character with Coffee" 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Aug%206%2C%202025%2C%2006_36_18%20PM-1I0MWbpifgPTuxX6wOjN1MEKntznS8.png" 
+                alt="Professional BASE Character with Coffee" 
                 className="w-64 h-auto sm:w-72 md:w-80 lg:w-96 mx-auto hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -460,8 +460,8 @@ export default function WigOnBasePage() {
             {/* Left side - Relaxing BASE Character */}
             <div className={`text-center scale-in stagger-1 ${howToBuyAnimation.isVisible ? 'visible' : ''} order-2 lg:order-1`}>
               <img 
-                src="/base-relaxing-character.png" 
-                alt="Relaxing BASE Character" 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT_Image_Aug_6__2025__06_54_49_PM-removebg-preview-EYXG1CaGVUg8r4EDY2a8fQyFlZWskp.png" 
+                alt="Relaxed BASE Character" 
                 className="w-64 h-auto sm:w-72 md:w-80 lg:w-96 mx-auto hover:scale-105 transition-transform duration-300"
               />
             </div>
