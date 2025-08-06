@@ -57,11 +57,23 @@ export default function WigOnBasePage() {
           <div className="flex items-center justify-between w-full md:w-auto">
             {/* Left side - Social buttons */}
             <div className="flex gap-2 md:gap-4">
-              <Button className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>
-                X
+              <Button 
+                asChild
+                className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://x.com/Wig_onBase" target="_blank" rel="noopener noreferrer">
+                  X
+                </a>
               </Button>
-              <Button className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" style={{ fontFamily: 'var(--font-body)' }}>
-                TG
+              <Button 
+                asChild
+                className="bg-black/80 text-blue-400 hover:bg-black/90 font-semibold px-2 py-2 md:px-4 md:py-3 backdrop-blur-sm text-sm md:text-base" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://t.me/wigOnBasee" target="_blank" rel="noopener noreferrer">
+                  TG
+                </a>
               </Button>
             </div>
             
@@ -519,11 +531,23 @@ export default function WigOnBasePage() {
             </div>
             
             <div className={`flex justify-center gap-3 md:gap-4 mb-6 md:mb-8 scale-in stagger-2 ${ctaAnimation.isVisible ? 'visible' : ''}`}>
-              <Button className="bg-black text-blue-400 hover:bg-gray-800 font-semibold px-4 md:px-6 py-2 md:py-3 text-lg md:text-xl" style={{ fontFamily: 'var(--font-body)' }}>
-                X
+              <Button 
+                asChild
+                className="bg-black text-blue-400 hover:bg-gray-800 font-semibold px-4 md:px-6 py-2 md:py-3 text-lg md:text-xl" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://x.com/Wig_onBase" target="_blank" rel="noopener noreferrer">
+                  X
+                </a>
               </Button>
-              <Button className="bg-blue-500 text-white hover:bg-blue-400 font-semibold px-4 md:px-6 py-2 md:py-3 text-lg md:text-xl" style={{ fontFamily: 'var(--font-body)' }}>
-                TG
+              <Button 
+                asChild
+                className="bg-blue-500 text-white hover:bg-blue-400 font-semibold px-4 md:px-6 py-2 md:py-3 text-lg md:text-xl" 
+                style={{ fontFamily: 'var(--font-body)' }}
+              >
+                <a href="https://t.me/wigOnBasee" target="_blank" rel="noopener noreferrer">
+                  TG
+                </a>
               </Button>
             </div>
           </div>
